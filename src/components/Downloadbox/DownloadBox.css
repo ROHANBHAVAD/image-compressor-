@@ -1,0 +1,47 @@
+.download-section{
+
+padding:60px 20px;
+
+text-align:center;
+
+}
+
+.download-section h2{
+
+margin-bottom:25px;
+
+}
+
+.download-section button{
+
+background:#2563EB;
+
+color:white;
+
+border:none;
+
+padding:15px 30px;
+
+border-radius:10px;
+
+font-size:16px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.download-section button:hover{
+
+background:#1D4ED8;
+
+}
+
+.download-section button:disabled{
+
+background:#9CA3AF;
+
+cursor:not-allowed;
+
+}

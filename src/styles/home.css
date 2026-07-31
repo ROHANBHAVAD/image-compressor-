@@ -1,0 +1,170 @@
+/* ===========================
+   HOME PAGE
+=========================== */
+
+main{
+    width:100%;
+    overflow:hidden;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    margin-bottom:20px;
+}
+
+/* ===========================
+   UPLOAD
+=========================== */
+
+.upload{
+    margin-bottom:30px;
+}
+
+/* ===========================
+   COMPRESS
+=========================== */
+
+.compress{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.compress .primary-btn{
+    min-width:220px;
+}
+
+/* ===========================
+   PREVIEW
+=========================== */
+
+.preview{
+    margin-bottom:50px;
+}
+
+/* ===========================
+   STATISTICS
+=========================== */
+
+.statistics{
+    margin-bottom:50px;
+}
+
+/* ===========================
+   DOWNLOAD
+=========================== */
+
+.download-section{
+    margin-bottom:60px;
+}
+
+/* ===========================
+   FEATURES
+=========================== */
+
+.features{
+    margin-bottom:40px;
+}
+
+/* ===========================
+   FAQ
+=========================== */
+
+.faq{
+    margin-bottom:20px;
+}
+
+/* ===========================
+   SPACING
+=========================== */
+
+section{
+    scroll-margin-top:90px;
+}
+
+/* ===========================
+   ANIMATIONS
+=========================== */
+
+.hero,
+.upload,
+.compress,
+.preview,
+.statistics,
+.download-section,
+.features,
+.faq{
+
+    animation:fadeUp .6s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+.hero{
+    margin-bottom:10px;
+}
+
+.upload,
+.compress,
+.preview,
+.statistics,
+.download-section,
+.features,
+.faq{
+    margin-bottom:30px;
+}
+
+.compress .primary-btn{
+    width:100%;
+}
+
+}
+
+/* ===========================
+   LARGE DESKTOP
+=========================== */
+
+@media (min-width:1400px){
+
+main{
+
+    max-width:1600px;
+    margin:auto;
+
+}
+
+.upload-container{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding-top:20px;
+}
+
+}
+
+

@@ -1,0 +1,55 @@
+.statistics{
+
+padding:70px 20px;
+
+background:#F8FAFC;
+
+}
+
+.statistics h2{
+
+text-align:center;
+
+margin-bottom:35px;
+
+}
+
+.stats-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+}
+
+.stat-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:14px;
+
+border:1px solid #E5E7EB;
+
+text-align:center;
+
+}
+
+.stat-card h3{
+
+margin-bottom:12px;
+
+}
+
+.stat-card p{
+
+font-size:28px;
+
+font-weight:bold;
+
+color:#2563EB;
+
+}
