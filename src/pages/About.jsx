@@ -15,6 +15,8 @@ function About() {
         keywords="about compressify,image compressor,online image compressor"
       />
 
+     
+
       <Navbar />
 
       <main className="page">
