@@ -2,11 +2,11 @@ import { useState } from "react";
 
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
-import Uploadbox from "../components/Uploadbox/Uploadbox";
+import UploadBox from "../components/Uploadbox/UploadBox";
 import Compressbox from "../components/Compressbox/Compressbox";
 import Preview from "../components/Preview/Preview";
 import Statistics from "../components/Statistics/Statistics";
-import Downloadbox from "../components/Downloadbox/Downloadbox";
+import DownloadBox from "../components/DownloadBox/DownloadBox";
 import Features from "../components/Features/Features";
 import FAQ from "../components/FAQ/FAQ";
 import Footer from "../components/Footer/Footer";
@@ -36,7 +36,7 @@ function Home() {
         {/* Upload */}
         <section className="home-section upload-section">
   <div className="container upload-container">
-    <Uploadbox
+    <UploadBox
       setOriginalImage={setOriginalImage}
     />
   </div>
@@ -87,7 +87,7 @@ function Home() {
           <section className="home-section download-section">
             <div className="container">
 
-              <Downloadbox
+              <DownloadBox
                 compressedImage={compressedImage}
               />
 
