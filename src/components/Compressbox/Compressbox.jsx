@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "./CompressBox.css";
+import "./Compressbox.css";
 
 function CompressBox({
   originalImage,

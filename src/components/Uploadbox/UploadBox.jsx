@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./Uploadbox.css";
+import "./UploadBox.css";
 
 function Uploadbox({ setOriginalImage }) {
 
