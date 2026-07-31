@@ -6,7 +6,7 @@ import UploadBox from "../components/Uploadbox/UploadBox";
 import Compressbox from "../components/Compressbox/Compressbox";
 import Preview from "../components/Preview/Preview";
 import Statistics from "../components/Statistics/Statistics";
-import DownloadBox from "../components/DownloadBox/DownloadBox";
+import DownloadBox from "../components/Downloadbox/DownloadBox";
 import Features from "../components/Features/Features";
 import FAQ from "../components/FAQ/FAQ";
 import Footer from "../components/Footer/Footer";
