@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://image-compressor-iota-six.vercel.app/sitemap.xml
